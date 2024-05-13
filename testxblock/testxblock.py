@@ -529,8 +529,8 @@ class TestXBlock(
         # Add the mode field to non_editable_metadata_fields so that it doesn't
         # render in the edit form.
         non_editable_fields.extend([
-            LibraryContentBlock.mode,
-            LibraryContentBlock.source_library_version,
+            TestXBlock.mode,
+            TestXBlock.source_library_version,
         ])
         return non_editable_fields
 
